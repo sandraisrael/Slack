@@ -54,6 +54,30 @@ body h1{
     width: 100%;
     border-radius: 5px;
 }
+
 .section-1 img{
     height: 20rem;
+}
+
+
+
+/* section 2 */
+.section-2{
+    background-color: #DEDFE2; 
+    text-align: center;
+    padding: 3rem 1.7em;
+}
+.section-2 h2{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+#discover-why{
+    width: 100%;
+    background-color: #fff;
+    color : #293EAF;
+    border: 0.5px solid #293EAF;
+    font-size: 90%;
+    padding: 1.2rem;
+    border-radius: 5px;
 }
