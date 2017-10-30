@@ -34,3 +34,10 @@ body h1{
     line-height: 1;
     color: #6890A0;
 }
+.section-1 h3 {
+    padding-top: 1.3rem;
+    padding-bottom: 2rem;
+    line-height: 1.5;
+    color: #67777C;
+    font-size: 1.1rem;
+}
