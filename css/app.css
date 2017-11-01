@@ -150,3 +150,23 @@ body h1{
     width: 50%;
     padding-bottom: 1.5rem;
 }
+
+
+
+
+/* footer */
+footer{
+    background-color: #f5f5f5; 
+    text-align: center;
+    padding: 3rem 1.7em;
+}
+.footer-menu{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    justify-content: space-around;
+}
+.footer-menu p{
+    padding: 0;
+    font-size: 1rem;
+}
