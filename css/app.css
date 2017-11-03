@@ -66,21 +66,25 @@ body h1{
 .section-2{
     background-color: #f5f5f5; 
     text-align: center;
-    padding: 3rem 1.9em;
+    padding: 2.7rem 1.9em;
 }
 
 .section-2 h2{
     font-family: 'Goudy Bookletter 1911', serif;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bolder;
+}
+.section-2 p{
+    padding: 0.9rem 0 1.5rem 0;
+    font-size: 1rem;
 }
 
 #discover-why{
     width: 100%;
     background-color: #fff;
     color : #293EAF;
-    border: 0.5px solid #293EAF;
-    font-size: 90%;
+    border: 0.4px solid #293EAF;
+    font-size: 85%;
     padding: 1.2rem;
     border-radius: 5px;
 }
@@ -89,14 +93,39 @@ body h1{
     padding-top: 2rem;
 }
 
-.brand-logos img{
+#airbnb, #capital-one{
     max-width: 50%;
     height: auto;
+}
+
+#harvard {
+    max-width: 55%;
+    height: auto;
+}
+
+#la-times{
+    max-width: 85%;
+    height: auto;
+}
+
+#oracle{
+    max-width: 60%;
+    height: auto;
+}
+
+#ticket-master{
+    max-width: 60%;
+    height: auto;
+    border-bottom: none;
 }
 
 .brand{
     padding: 2rem;
     border-bottom: 0.5px solid #DFDFDF;
+}
+
+#border-none{
+    border-bottom: none;
 }
 
 
