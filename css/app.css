@@ -17,9 +17,11 @@ body h1{
     border-bottom: 1px solid #DFDFDF;
     padding: 0.5rem 1.3rem;
 }
-
+.logo{
+    max-width: 100%;
+}
 #slack-logo{
-    height: 8%;
+    width: 32%;
 }
 
 
@@ -27,13 +29,15 @@ body h1{
 /* section 1 */
 .section-1{
     padding: 2.5rem 1.9em 0rem 1.9rem;
+    max-width: 100%;
 }
 
 .section-1 h1{
-    font-size: 2.3rem;
+    font-size: 2.6rem;
     font-weight: bolder;
     line-height: 1;
     color: rgb(8, 41, 53);
+    text-align: left;
 }
 
 .section-1 h3, p {
@@ -229,7 +233,28 @@ option{
 
 /* For Tablets */
 @media screen and (min-width:768px) and (max-width:1023px) {
-    
+    #slack-logo{
+        width: 17%;
+    }
+
+    .section-1 h1{
+        font-size: 4.3rem;
+    }
+
+    .section-1 h3{
+        font-size: 1.3rem;
+    }
+
+    #get-started{
+        width: 30%;
+    }
+
+    #home-image{
+        display: block;
+        margin: 0 auto;
+        padding-top: 2.5rem;
+        max-width: 50%;
+    }
 }
 
 
