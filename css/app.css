@@ -330,7 +330,22 @@ option{
     .extras h3{
         color: #9EA8AB;
     }
-    
+    .footer-menu{
+        justify-content: flex-start;
+        padding-bottom: 1rem;
+    }
+    .footer-menu p{
+        padding-left: 1rem;
+    }
+    .country-sm{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        font-size: 1.5rem;
+    }
+    select{
+        background-color: blue;
+    }
 }
 
 
