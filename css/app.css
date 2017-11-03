@@ -23,7 +23,9 @@ body h1{
 #slack-logo{
     width: 32%;
 }
-
+.menus{
+    display: none;
+}
 
 
 /* section 1 */
@@ -254,7 +256,9 @@ option{
     #slack-logo{
         width: 17%;
     }
-
+    .menus{
+        display: none;
+    }
     /* section-1 */
     .section-1 h1{
         font-size: 4.3rem;
@@ -367,10 +371,27 @@ option{
         font-size: 32px;
     } */
     .nav-bar{
-        padding: 0.2rem 2.2rem;
+        padding: 0rem 2.2rem;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
     #slack-logo{
-        width: 11%;
+        width: 35%;
+    }
+    .logo{
+        width: 30%;
+    }
+    .menus{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .menu-item{
+        padding: 1.3rem 1rem 1.3rem 1rem;
+        font-size: 1.3rem;
+        color: #556266;
     }
     .section-1{
         display: flex;
