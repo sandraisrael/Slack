@@ -26,14 +26,14 @@ body h1{
 
 /* section 1 */
 .section-1{
-    padding: 3rem 1.9em;
+    padding: 2.5rem 1.9em 0rem 1.9rem;
 }
 
 .section-1 h1{
-    font-size: 2.5rem;
-    font-weight: bold;
+    font-size: 2.3rem;
+    font-weight: bolder;
     line-height: 1;
-    color: #6890A0;
+    color: rgb(8, 41, 53);
 }
 
 .section-1 h3, p {
@@ -41,7 +41,7 @@ body h1{
     padding-bottom: 2rem;
     line-height: 1.5;
     color: #67777C;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 #get-started{
@@ -56,6 +56,7 @@ body h1{
 }
 
 #home-image{
+    padding-top: 2.5rem;
     max-width: 100%;
 }
 
