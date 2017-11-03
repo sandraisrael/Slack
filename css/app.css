@@ -340,6 +340,9 @@ option{
     
 
     /* footer */
+    footer{
+        padding: 3rem 3rem;
+    }
     .footer-menu{
         justify-content: flex-start;
         padding-bottom: 1rem;
@@ -352,9 +355,6 @@ option{
         flex-wrap: wrap;
         justify-content: flex-end;
         font-size: 1.5rem;
-    }
-    select{
-        background-color: blue;
     }
 }
 
@@ -476,7 +476,21 @@ option{
     }
     .extras p{
         font-size: 1.1rem;
-        color: #C7CDCF;
     }
 
+
+    /* footer */
+    .footer-menu{
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+    .footer-menu p{
+        padding-left: 1rem;
+    }
+    .country-sm{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        font-size: 1.5rem;
+    }
 }
