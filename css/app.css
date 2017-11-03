@@ -373,25 +373,20 @@ option{
     }
     .section-1{
         display: flex;
-        flex: wrap;
         flex-direction: row-reverse;
-        padding: 5rem 2rem;
+        padding: 6rem 3rem;
     }
     .header-text{
-        padding: 0 2rem;
         width: 50%;
-        justify-content: flex-end;
     }
-
     .header-image{
         width:50%;
-        justify-content: flex-start;
     }
     .section-1 h1{
-        font-size: 5rem;
+        font-size: 5.5rem;
     }
     .section-1 h3{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         padding-bottom: 2rem;
     }
     .get-slack{
