@@ -352,6 +352,49 @@ option{
 
 
 /* For Desktop */
-@media screen and (min-width:1024px{
+@media screen and (min-width:1024px){
+    html{
+        font-size: 32px;
+    }
+    #slack-logo{
+        width: 10%;
+    }
+    .section-1{
+        display: flex;
+        flex: wrap;
+        flex-direction: row-reverse;
+        padding: 3rem 1.5rem;
+    }
+    .header-text{
+        padding: 0 2rem;
+        width: 50%;
+        justify-content: flex-end;
+    }
+
+    .header-image{
+        width:50%;
+        justify-content: flex-start;
+    }
+    .section-1 h1{
+        font-size: 2.7rem;
+    }
+    .section-1 h3{
+        font-size: 0.7rem;
+        padding-bottom: 1rem;
+    }
+    .get-slack{
+        max-width: 100%;
+    }
+    #get-started{
+        width: 35%;
+        font-size: 0.5rem;
+        padding: 0.7rem 0.3rem;
+        text-align: none;
+    }
+    #home-image{
+        width: 95%;
+        padding-top: 0; 
+    }
+
     
 }
