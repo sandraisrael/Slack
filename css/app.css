@@ -74,6 +74,7 @@ body h1{
     font-size: 1.6rem;
     font-weight: bolder;
 }
+
 .section-2 p{
     padding: 0.9rem 0 1.5rem 0;
     font-size: 1rem;
@@ -120,7 +121,7 @@ body h1{
 }
 
 .brand{
-    padding: 2rem;
+    padding: 2.3rem;
     border-bottom: 0.5px solid #DFDFDF;
 }
 
@@ -165,14 +166,14 @@ body h1{
 
 .section-4 p{
     padding: 0rem;
-    line-height: 2.3;
+    line-height: 2.5;
     max-width: 100%;
     font-size: 1rem;
 }
 
 .section-4 h3{
-    font-weight: bold;
-    color: #67777C;
+    font-weight: bolder;
+    color: #394144;
     line-height: 2.5;
 }
 
