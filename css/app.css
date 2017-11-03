@@ -96,6 +96,9 @@ body h1{
 
 .brand-logos{
     padding-top: 2rem;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #airbnb, #capital-one{
@@ -129,7 +132,7 @@ body h1{
     border-bottom: 0.5px solid #DFDFDF;
 }
 
-#border-none{
+#ticket-master{
     border-bottom: none;
 }
 
@@ -257,7 +260,7 @@ option{
         max-width: 50%;
     }
 
-    /* section-2 */
+    /* section 2 */
     .section-2 h2{
         font-size: 2.2rem;
     }
@@ -267,6 +270,17 @@ option{
     #discover-why{
         width: 30%;
     }
+    .brand{
+        width:50%;
+    }
+    #oracle{
+        border-bottom: none;
+    }
+    #airbnb, #harvard, #oracle{
+        border-right: 0.5px solid #DFDFDF;
+    }
+
+    /* section 3 */
 
 }
 
