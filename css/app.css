@@ -14,7 +14,7 @@ body h1{
 
 /* navigation bar */
 .nav-bar{
-    border-bottom: 0.5px solid #8F9CA1;
+    border-bottom: 1px solid #DFDFDF;
     padding: 0.5rem 1.3rem;
 }
 
@@ -26,7 +26,7 @@ body h1{
 
 /* section 1 */
 .section-1{
-    padding: 3rem 1.7em;
+    padding: 3rem 1.9em;
 }
 
 .section-1 h1{
@@ -65,7 +65,7 @@ body h1{
 .section-2{
     background-color: #f5f5f5; 
     text-align: center;
-    padding: 3rem 1.7em;
+    padding: 3rem 1.9em;
 }
 
 .section-2 h2{
@@ -102,7 +102,7 @@ body h1{
 
 /* section 3 */
 .section-3{
-   padding: 3rem 1.7em;
+   padding: 3rem 1.9em;
    text-align: center;
    border-bottom: 0.5px solid #DFDFDF;
 }
