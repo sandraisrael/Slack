@@ -403,7 +403,7 @@ option{
 
     /* section 2 */
     .section-2{
-        padding: 2.7rem 2.2rem 3rem 2.2rem;
+        padding: 2.7rem 3rem 3rem 3rem;
     }
     .section-2 h2{
         font-size: 2.7rem;
@@ -430,21 +430,53 @@ option{
 
     /* section 3 */
     .section-3{
-        padding: 2rem 2rem;
+        padding: 3rem 3rem;
     }
     .text{
         text-align: left;
-        width: 50%;
+        width: 70%;
     }
     .text h3{
-        font-size: 1.6rem;
+        font-size: 2rem;
+    }
+    .text p{
+        font-size: 1.3rem;
+        padding-bottom: 0;
     }
     .the-button{
         text-align: right;
-        width: 50%;
+        width: 30%;
     }
     .the-button #get-started{
         width: 65%;
+        padding: 1.5rem 2.2rem;
+    }
+
+
+    /* section 4 */
+    .sectionfour{
+        flex-wrap: nowrap;
+        padding: 3rem 3rem;
+    }
+    .logo-alone{
+        width: 30%;
+        margin-top: -1.5rem;
+    }
+    .logo-alone img{
+        padding-right: 2.5rem;
+        width: 40%;
+    }
+    .section-4{
+        justify-content: space-between 3rem;
+        width: 70%;
+        padding-right: 2.5rem;
+    }
+    .extras{
+        width: 25%;
+    }
+    .extras p{
+        font-size: 1.1rem;
+        color: #C7CDCF;
     }
 
 }
