@@ -264,7 +264,10 @@ option{
     .section-2 p{
         font-size: 1.1rem;
     }
-    
+    #discover-why{
+        width: 30%;
+    }
+
 }
 
 
