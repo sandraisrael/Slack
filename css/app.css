@@ -55,8 +55,8 @@ body h1{
     border-radius: 5px;
 }
 
-.section-1 img{
-    height: 20rem;
+#home-image{
+    max-width: 100%;
 }
 
 
