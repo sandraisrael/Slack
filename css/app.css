@@ -88,7 +88,7 @@ body h1{
     width: 100%;
     background-color: #fff;
     color : #293EAF;
-    border: 0.4px solid #293EAF;
+    border: 0.5px solid #293EAF;
     font-size: 85%;
     padding: 1.2rem;
     border-radius: 5px;
@@ -394,8 +394,6 @@ option{
     }
     #get-started{
         width: 35%;
-        /* font-size: 0.5rem;
-        padding: 0.7rem 0.3rem; */
         text-align: none;
     }
     #home-image{
@@ -403,15 +401,21 @@ option{
         padding-top: 0; 
     }
 
-
+    /* section 2 */
+    .section-2{
+        padding: 2.7rem 2.2rem 3rem 2.2rem;
+    }
     .section-2 h2{
         font-size: 2.7rem;
     }
     .section-2 p{
         font-size: 1.2rem;
+        padding-bottom: 2rem;
     }
     #discover-why{
-        width: 20%;
+        width: 15%;
+        font-size: 1rem;
+        font-weight: bold;
     }
     .brand{
         width:33.3%;
