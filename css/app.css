@@ -38,6 +38,28 @@ body h1{
     float: right;
 }
 
+/* fullmenu */
+.full-menu{
+    background-color: #29339B;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.top-bar{
+    display: flex;
+    max-width: 100%;
+    padding-bottom: 1px solid #DFDFDF;
+}
+#white-logo{
+    width: 50%;
+}
+#close-icon{
+    width: 50%;
+    float: right;
+}
+
+
 
 /* section 1 */
 .section-1{
