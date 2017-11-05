@@ -38,6 +38,9 @@ body h1{
     float: right;
 }
 
+
+
+
 /* fullmenu */
 .full-menu{
     background-color: #29339B;
@@ -49,16 +52,49 @@ body h1{
 .top-bar{
     display: flex;
     max-width: 100%;
-    padding-bottom: 1px solid #DFDFDF;
+    border-bottom: 1px solid #AFAFAF;
+    padding: 1.2rem 1.7rem;
 }
 #white-logo{
     width: 50%;
 }
 #close-icon{
     width: 50%;
+}
+#close-icon img{
     float: right;
 }
+.nav-items{
+    padding: 1.2rem 1.7rem;
+}
+.nav-items h2{
+    font-size: 1.4rem;
+    line-height: 2.2;
+}
+.workspaces{
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.download-slack{
+    color: #29339B;
+    background-color: #fff;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+.download-slack img{
+    margin-right: 1.5rem;
+}
 
+.fix-to-end{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
 
 
 /* section 1 */
