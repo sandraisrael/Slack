@@ -513,6 +513,7 @@ option{
     #get-started{
         width: 35%;
         text-align: none;
+        font-weight: bold;
     }
     .get-slack p{
         display: block;
