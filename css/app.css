@@ -95,6 +95,9 @@ body h1{
     bottom: 0px;
     width: 100%;
 }
+.full-menu{
+    display: none;
+}
 
 
 /* section 1 */
