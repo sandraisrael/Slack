@@ -448,9 +448,9 @@ option{
 
 /* For Desktop */
 @media screen and (min-width:1367px){
-    /* html{
-        font-size: 32px;
-    } */
+    .full-menu{
+        display: none;
+    }
     .nav-bar{
         padding: 0rem 2.2rem;
         max-width: 100%;
