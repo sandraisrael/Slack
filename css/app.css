@@ -324,7 +324,7 @@ option{
 /* Media queries */
 
 /* For Tablets */
-@media screen and (min-width:768px) and (max-width:1366px) {
+@media screen and (min-width:768px) and (max-width:1279px) {
     .nav-bar{
         padding: 1rem 2rem;
     }
@@ -450,9 +450,9 @@ option{
 
 
 /* For Desktop */
-@media screen and (min-width:1367px){
+@media screen and (min-width: 1280px){
     .full-menu{
-        display: none;
+        display: none !important;
     }
     .nav-bar{
         padding: 0rem 2.2rem;
