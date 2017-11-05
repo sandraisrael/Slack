@@ -1,2 +1,2 @@
-# Replica-slack
+# Slack
 Creating a replica of Slack Homepage
