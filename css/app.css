@@ -67,17 +67,33 @@ body h1{
     float: right;
 }
 .nav-items{
-    padding: 1.2rem 1.7rem;
+    padding: 0 1.7rem;
+    display: block;
 }
-.nav-items h2{
+.nav-items p{
     font-size: 1.4rem;
     line-height: 2.2;
+    color: #fff;
+    padding-bottom: 0;
+}
+.nav-items a{
+    background-color: transparent; 
+    text-decoration: none;
 }
 .workspaces{
     text-align: center;
     padding: 2rem;
     font-size: 1.2rem;
     font-weight: bolder;
+}
+.workspaces a{
+    background-color: transparent; 
+    text-decoration: none;
+}
+.workspaces p{
+    font-size: 1.2rem;
+    color: #fff;
+    padding-bottom: 0;
 }
 .download-slack{
     color: #29339B;
