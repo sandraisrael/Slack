@@ -33,9 +33,11 @@ body h1{
     width: 50%;
 }
 #icon{
-    width: 15%;
-    padding-top: 0.7rem;
+    max-width: 30%;
     float: right;
+    margin-top: 0.5rem; 
+    background: none;
+    border: none;
 }
 
 
@@ -497,8 +499,24 @@ option{
     }
     .menu-item{
         padding: 1.3rem 1rem 1.3rem 1rem;
-        font-size: 1.3rem;
+    }
+    .menu-item a{
+        font-size: 1.1rem;
+        padding-right: 1rem;
         color: #556266;
+        text-decoration: none;
+    }
+    #workspace{
+        font-family: 'Lato', sans-serif;
+        background-color: #fff;
+        border: 1px solid #29339B;
+        border-radius: 3px;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-right: 0 !important;
+    }
+    #item-4{
+        padding: 0.7rem 1rem 0 0; 
     }
     .icon{
         display: none !important;
