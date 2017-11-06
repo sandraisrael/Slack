@@ -146,19 +146,19 @@ header h3, p {
 
 
 /* section 2 */
-.section-2{
+.section-1{
     background-color: #f5f5f5; 
     text-align: center;
     padding: 2.7rem 1.9em;
 }
 
-.section-2 h2{
+.section-1 h2{
     font-family: 'Goudy Bookletter 1911', serif;
     font-size: 1.6rem;
     font-weight: bolder;
 }
 
-.section-2 p{
+.section-1 p{
     padding: 0.9rem 0 1.5rem 0;
     font-size: 1rem;
 }
@@ -218,7 +218,7 @@ header h3, p {
 
 
 /* section 3 */
-.section-3{
+.section-2{
     display: flex;
     padding: 3rem 1.9em;;
     flex-wrap: wrap;
@@ -250,8 +250,8 @@ header h3, p {
 
 
 
-/* section 4 */
-.sectionfour{
+/* section 3 */
+.section-3{
     display: flex;
     padding: 0.5rem 1.9rem;
     flex-wrap: wrap;
@@ -260,8 +260,7 @@ header h3, p {
     width: 70%;
     margin-left: -1.8rem;
 }
-.section-4{
-    /* padding: 0.5rem 1.9rem; add this padding to everything */
+.extra-info{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -372,10 +371,10 @@ option{
     }
 
     /* section 2 */
-    .section-2 h2{
+    .section-1 h2{
         font-size: 2.2rem;
     }
-    .section-2 p{
+    .section-1 p{
         font-size: 1.1rem;
     }
     #discover-why{
@@ -392,7 +391,7 @@ option{
     }
 
     /* section 3 */
-    .section-3{
+    .section-2{
         flex-wrap: nowrap;
         padding-bottom: 1.2rem;
     }
@@ -410,8 +409,8 @@ option{
         width: 65%;
     }
 
-    /* section-4 */
-    .sectionfour{
+    /* section 3 */
+    .section-3{
         flex-wrap: nowrap;
         padding: 1.7rem 1.7rem 1.7rem 0;
     }
@@ -422,7 +421,7 @@ option{
     .logo-alone img{
         padding-right: 1.4rem;
     }
-    .section-4{
+    .extra-info{
         justify-content: space-between;
         width: 80%;
         padding: 0;
@@ -524,13 +523,13 @@ option{
     }
 
     /* section 2 */
-    .section-2{
+    .section-1{
         padding: 2.7rem 3rem 3rem 3rem;
     }
-    .section-2 h2{
+    .section-1 h2{
         font-size: 2.7rem;
     }
-    .section-2 p{
+    .section-1 p{
         font-size: 1.2rem;
         padding-bottom: 2rem;
     }
@@ -550,8 +549,8 @@ option{
         border-left: 0.5px solid #DFDFDF;
     }
 
-    /* section 3 */
-    .section-3{
+    /* section 2 */
+    .section-2{
         padding: 3rem 3rem;
     }
     .text{
@@ -575,8 +574,8 @@ option{
     }
 
 
-    /* section 4 */
-    .sectionfour{
+    /* section 3*/
+    .section-3{
         flex-wrap: nowrap;
         padding: 3rem 3rem;
     }
@@ -588,7 +587,7 @@ option{
         padding-right: 2.5rem;
         width: 40%;
     }
-    .section-4{
+    .extra-info{
         justify-content: space-between 3rem;
         width: 70%;
         padding-right: 2.5rem;
