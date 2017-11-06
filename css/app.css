@@ -62,11 +62,17 @@ body h1{
 #white-logo{
     width: 50%;
 }
-#close-icon{
+.close-icon{
     width: 50%;
 }
-#close-icon img{
+.close-icon img{
     float: right;
+}
+#close-icon{
+    max-width: 30%;
+    float: right;
+    background: none;
+    border: none;
 }
 .nav-items{
     padding: 0 1.7rem;
@@ -360,9 +366,14 @@ option{
         width: 50%;
     }
     #icon{
-        width: 12%;
+        max-width: 50%;
         float: right;
-        padding-top: 1.2rem;
+        margin-top: 1rem; 
+        background: none;
+        border: none;
+    }
+    #icon img{
+        width: 3rem;
     }
     
     /* header */
