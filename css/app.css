@@ -49,7 +49,7 @@ body h1{
     color: #fff;
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     overflow-x: hidden;
     overflow-y: hidden;
 }
