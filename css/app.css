@@ -124,6 +124,45 @@ body h1{
 .full-menu{
     display: none;
 }
+/* Animating .full-menu */
+@keyframes slide-in{
+    from {
+        transform: translate3d(100%, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+}
+.nav-animate-in{
+    animation-name: slide-in;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block !important;
+}
+@keyframes slide-out{
+    from {
+        transform: translate3d(0, 0, 0);
+      }
+    
+      to {
+        visibility: hidden;
+        transform: translate3d(100%, 0, 0);
+      }
+}
+.nav-animate-out{
+    animation-name: slide-out;
+    animation-delay: 0s;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
 
 
 /* section 1 */

@@ -1,15 +1,18 @@
-var menuIcon = $('.icon');
-var fullMenu = $('.full-menu')
-var closeIcon = $('#close-icon')
+var menuIcon = document.querySelector('#icon');
+var fullMenu = document.querySelector('.full-menu')
+var closeIcon = document.querySelector('#close-icon')
 
-menuIcon.on('click', function(){
-    menuIcon.hide();
-    fullMenu.show();
-})
+menuIcon.addEventListener('click', function(){
+    menuIcon.classList.add("hide");
+    fullMenu.classList.add("show");
+    fullMenu.classList.add("nav-animate-in");
+});
 
 
 
-closeIcon.on('click', function(){
-    fullMenu.hide();
-    menuIcon.show();
+closeIcon.addEventListener('click', function(){
+    fullMenu.classList.remove("show");
+
+    fullMenu.classList.add("hide");
+    menuIcon.classList.remove("hide");
 })
