@@ -3,16 +3,15 @@ var fullMenu = document.querySelector('.full-menu')
 var closeIcon = document.querySelector('#close-icon')
 
 menuIcon.addEventListener('click', function(){
-    menuIcon.classList.add("hide");
-    fullMenu.classList.add("show");
+    menuIcon.classList.toggle("hide");
+    fullMenu.classList.remove("nav-animate-out");
     fullMenu.classList.add("nav-animate-in");
 });
 
 
 
 closeIcon.addEventListener('click', function(){
-    fullMenu.classList.remove("show");
-
-    fullMenu.classList.add("hide");
-    menuIcon.classList.remove("hide");
+    fullMenu.classList.remove("nav-animate-in");
+    fullMenu.classList.add("nav-animate-out");
+    menuIcon.classList.toggle("show");
 })

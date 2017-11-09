@@ -52,6 +52,7 @@ body h1{
     position: fixed;
     overflow-x: hidden;
     overflow-y: hidden;
+    display: none;
 }
 .top-bar{
     display: flex;
@@ -121,9 +122,9 @@ body h1{
     bottom: 0px;
     width: 100%;
 }
-.full-menu{
+/* .full-menu{
     display: none;
-}
+} */
 /* Animating .full-menu */
 @keyframes slide-in{
     from {
@@ -138,7 +139,8 @@ body h1{
     animation-name: slide-in;
     animation-delay: 0s;
     animation-duration: 1s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in;
+    display: block;
 }
 .hide{
     display: none;
@@ -147,11 +149,11 @@ body h1{
     display: block !important;
 }
 @keyframes slide-out{
-    from {
+     from{
         transform: translate3d(0, 0, 0);
       }
     
-      to {
+     to{
         visibility: hidden;
         transform: translate3d(100%, 0, 0);
       }
@@ -159,8 +161,8 @@ body h1{
 .nav-animate-out{
     animation-name: slide-out;
     animation-delay: 0s;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
 }
 
 
@@ -188,7 +190,7 @@ header h3, p {
 }
 
 #get-started{
-    background-color: #293EAF;
+    background-color: rgb(68, 86, 177);
     border: none;
     text-align: center;
     color: #fff;
@@ -196,6 +198,9 @@ header h3, p {
     padding: 1.2rem;
     width: 100%;
     border-radius: 5px;
+}
+#get-started:hover{
+    background-color: #29339B;
 }
 .get-slack p{
     display: none;
@@ -234,6 +239,9 @@ header h3, p {
     font-size: 85%;
     padding: 1.2rem;
     border-radius: 5px;
+}
+#discover-why:hover{
+    border: 1.5px solid #293EAF;
 }
 
 .brand-logos{
@@ -359,10 +367,14 @@ footer{
     flex-wrap: wrap;
     font-weight: bold;
     justify-content: space-around;
+
 }
 .footer-menu p{
     padding: 0;
     font-size: 1rem;
+}
+.footer-menu p:hover{
+    color: #29339B;
 }
 .fa {
     padding: 1rem;
@@ -371,6 +383,10 @@ footer{
     text-decoration: none;
     max-width: 100%;
   }
+
+.fa:hover{
+    color: #29339B;
+}
 .fa-facebook, .fa-twitter, .fa-youtube {
     color: #707070;
   }
@@ -404,11 +420,11 @@ option{
     .menus{
         display: none;
     }
-    .icon{
-        width: 50%;
+    .close-icon{
+        width: 65%;
     }
     #icon{
-        max-width: 50%;
+        max-width: 60%;
         float: right;
         margin-top: 1rem; 
         background: none;
@@ -559,14 +575,21 @@ option{
         color: #556266;
         text-decoration: none;
     }
+    .menu-item a:hover{
+        color: #29339B;
+    }
     #workspace{
         font-family: 'Lato', sans-serif;
         background-color: #fff;
-        border: 1px solid #29339B;
+        border: 1px solid #AFAFAF;
         border-radius: 3px;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         padding-right: 0 !important;
+    }
+    #workspace:hover{
+        border: 1px solid #29339B;
+        color: #29339B;
     }
     #item-4{
         padding: 0.7rem 1rem 0 0; 
@@ -690,15 +713,23 @@ option{
     /* footer */
     .footer-menu{
         justify-content: center;
-        padding-bottom: 1rem;
     }
     .footer-menu p{
         padding-left: 1rem;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 1rem;
     }
     .country-sm{
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
         font-size: 1.5rem;
+    }
+    .fa, .country{
+        padding-top: 0;
     }
 }
