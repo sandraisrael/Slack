@@ -88,11 +88,12 @@ body h1{
 	display: block;
 }
 
-.nav-items p{
+.nav-items a{
 	font-size: 1.4rem;
 	line-height: 2.2;
 	color: #fff;
 	padding-bottom: 0;
+	display: block;
 }
 
 .nav-items a{
@@ -134,7 +135,7 @@ body h1{
 
 .fix-to-end{
 	position: absolute;
-	bottom: 0 px;
+	bottom: 0;
 	width: 100%;
 }
 
