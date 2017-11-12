@@ -435,7 +435,7 @@ option {
 /* For Tablets */
 @media (min-width: 768px) and (max-width: 1279px) {
 	.nav-bar {
-		padding: 0.5rem 2rem 0;
+		padding: 0.5rem 2.2rem 0;
 	}
 
 	.logo {
@@ -471,16 +471,18 @@ option {
 		font-size: 4.3rem;
 	}
 
-	header h3 {
+	.header-text p {
 		font-size: 1.3rem;
+		font-weight: 300;
+		line-height: 1.5;
 	}
 
 	.get-slack {
-		width: 30%;
+		max-width: 100%;
 	}
 
 	.get-started {
-		max-width: 30% !important;
+		width: 30%;
 	}
 
 	.get-slack p {
