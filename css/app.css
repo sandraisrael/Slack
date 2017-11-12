@@ -111,9 +111,6 @@ body h1 {
 .workspaces a {
 	background-color: transparent;
 	text-decoration: none;
-}
-
-.workspaces p {
 	font-size: 1.2rem;
 	color: #fff;
 	padding-bottom: 0;
@@ -127,6 +124,9 @@ body h1 {
 	padding: 1rem;
 	display: flex;
 	justify-content: center;
+	width: 100%;
+	border-radius: 0;
+	font-family: 'Lato', sans-serif;
 }
 
 .download-slack img {
