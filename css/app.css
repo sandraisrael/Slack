@@ -255,14 +255,14 @@ p {
 	width: 100%;
 	background-color: #fff;
 	color: #293eaf;
-	border: 0.5 px solid #293eaf;
+	border: 0.5px solid #293eaf;
 	font-size: 85%;
 	padding: 1.2rem;
-	border-radius: 5 px;
+	border-radius: 5px;
 }
 
 #discover-why:hover {
-	border: 1.5 px solid #293eaf;
+	border: 3px solid #293eaf;
 }
 
 .brand-logos {
@@ -301,7 +301,7 @@ p {
 
 .brand {
 	padding: 2.3rem;
-	border-bottom: 0.5 px solid #dfdfdf;
+	border-bottom: 0.5px solid #dfdfdf;
 }
 
 #ticket-master {
@@ -520,7 +520,7 @@ option {
 	#airbnb,
 	#harvard,
 	#oracle {
-		border-right: 0.5 px solid rgb(250, 86, 86);
+		border-right: 0.5px solid #dfdfdf;
 	}
 
 	/* section 3 */
@@ -703,9 +703,9 @@ option {
 		padding-top: 0;
 	}
 
-	/* section 2 */
+	/* section 1 */
 	.section-1 {
-		padding: 2.7rem 3rem 3rem;
+		padding: 3rem 7rem;
 	}
 
 	.section-1 h2 {
@@ -713,14 +713,14 @@ option {
 	}
 
 	.section-1 p {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		padding-bottom: 2rem;
+		font-weight: 300;
 	}
 
 	#discover-why {
 		width: 15%;
 		font-size: 1rem;
-		font-weight: bold;
 	}
 
 	.brand {
@@ -735,8 +735,8 @@ option {
 
 	#capital-one,
 	#oracle {
-		border-right: 0.5 px solid #dfdfdf;
-		border-left: 0.5 px solid #dfdfdf;
+		border-right: 0.5px solid #dfdfdf;
+		border-left: 0.5px solid #dfdfdf;
 	}
 
 	/* section 2 */
