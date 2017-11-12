@@ -317,7 +317,7 @@ p {
 	text-align: center;
 	max-width: 100%;
 	justify-content: center;
-	border-bottom: 1 px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
 }
 
 .text {
@@ -705,7 +705,7 @@ option {
 
 	/* section 1 */
 	.section-1 {
-		padding: 3rem 7rem;
+		padding: 3rem 6rem;
 	}
 
 	.section-1 h2 {
@@ -741,7 +741,7 @@ option {
 
 	/* section 2 */
 	.section-2 {
-		padding: 3rem;
+		padding: 3rem 6rem;
 	}
 
 	.text {
@@ -750,22 +750,21 @@ option {
 	}
 
 	.text h3 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.text p {
-		font-size: 1.3rem;
+		font-size: 1rem;
 		padding-bottom: 0;
 	}
 
 	.the-button {
-		text-align: right;
 		width: 30%;
 	}
 
-	.the-button .get-started {
+	.get-started {
 		width: 65%;
-		padding: 1.5rem 2.2rem;
+		padding: 1rem;
 	}
 
 
