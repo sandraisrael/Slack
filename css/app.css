@@ -633,7 +633,6 @@ option {
 
 	.menu-item a {
 		font-size: 1.1rem;
-		padding-right: 1rem;
 		color: #556266;
 		text-decoration: none;
 	}
@@ -642,23 +641,15 @@ option {
 		color: #29339b;
 	}
 
-	#workspace {
-		font-family: 'Lato', sans-serif;
-		background-color: #fff;
-		border: 1 px solid #afafaf;
-		border-radius: 3 px;
-		padding-top: 0.5rem;
-		padding-bottom: 0.5rem;
-		padding-right: 0 !important;
+	.foo {
+		border: 1px solid #556266;
+		border-radius: 5px;
+		padding: 0.5rem;
 	}
 
-	#workspace:hover {
-		border: 1 px solid #29339b;
+	.foo:hover {
+		border: 1px solid #29339b;
 		color: #29339b;
-	}
-
-	#item-4 {
-		padding: 0.7rem 1rem 0 0;
 	}
 
 	.icon {
