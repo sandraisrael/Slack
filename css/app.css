@@ -367,16 +367,16 @@ p {
 
 .extras p {
 	padding: 0;
-	line-height: 2.5;
+	line-height: 2.7;
 	max-width: 100%;
 	font-size: 1rem;
-	color: #556266;
+	color: #637277;
 }
 
 .extras h3 {
 	font-weight: bolder;
-	color: #556266;
-	line-height: 2.5;
+	color: #637277;
+	line-height: 2.7;
 }
 
 
@@ -771,7 +771,7 @@ option {
 	/* section 3 */
 	.section-3 {
 		flex-wrap: nowrap;
-		padding: 3rem;
+		padding: 5rem 6rem;
 	}
 
 	.logo-alone {
@@ -785,17 +785,17 @@ option {
 	}
 
 	.extra-info {
-		justify-content: space-between 3rem;
+		justify-content: space-between;
 		width: 70%;
-		padding-right: 2.5rem;
 	}
 
 	.extras {
 		width: 25%;
+		padding-bottom: 0;
 	}
 
 	.extras p {
-		font-size: 1rem;
+		font-size: 0.8rem;
 	}
 
 
