@@ -1,53 +1,53 @@
-html{   
+html {
 	font-size: 16 px;
 }
 
-body{   
+body {
 	font-family: 'Lato', sans-serif;
 }
 
-body h1{    
+body h1 {
 	font-family: 'Goudy Bookletter 1911', serif;
 }
 
 
 /* navigation  */
-.nav-bar{ 
-	border-bottom: 1 px solid #DFDFDF; 
-	padding: 0.5rem 1.3rem; 
-	display: flex; 
-	flex-wrap: wrap; 
+.nav-bar {
+	border-bottom: 1 px solid #dfdfdf;
+	padding: 0.5rem 1.3rem;
+	display: flex;
+	flex-wrap: wrap;
 	max-width: 100%;
 }
 
-.logo{
+.logo {
 	width: 50%;
 }
 
-#slack-logo{
+#slack-logo {
 	width: 60%;
 }
 
-.menus{
+.menus {
 	display: none;
 }
 
-.icon{
+.icon {
 	width: 50%;
 }
 
-#icon{
+#icon {
 	max-width: 30%;
-	float: right;    
-	margin-top: 0.5rem; 
+	float: right;
+	margin-top: 0.5rem;
 	background: none;
 	border: none;
 }
 
 
 /* fullmenu */
-.full-menu{
-	background-color: #29339B;
+.full-menu {
+	background-color: #29339b;
 	color: #fff;
 	height: 100%;
 	width: 100%;
@@ -57,38 +57,38 @@ body h1{
 	display: none;
 }
 
-.top-bar{
+.top-bar {
 	display: flex;
 	max-width: 100%;
-	border-bottom: 1 px solid #AFAFAF;
+	border-bottom: 1 px solid #afafaf;
 	padding: 1.2rem 1.7rem;
 }
 
-#white-logo{
+#white-logo {
 	width: 50%;
 }
 
-.close-icon{
+.close-icon {
 	width: 50%;
 }
 
-.close-icon img{
+.close-icon img {
 	float: right;
 }
 
-#close-icon{
+#close-icon {
 	max-width: 30%;
 	float: right;
 	background: none;
 	border: none;
 }
 
-.nav-items{
+.nav-items {
 	padding: 0 1.7rem;
 	display: block;
 }
 
-.nav-items a{
+.nav-items a {
 	font-size: 1.4rem;
 	line-height: 2.2;
 	color: #fff;
@@ -96,50 +96,50 @@ body h1{
 	display: block;
 }
 
-.nav-items a{
-	background-color: transparent; 
+.nav-items a {
+	background-color: transparent;
 	text-decoration: none;
 }
 
-.workspaces{
+.workspaces {
 	text-align: center;
 	padding: 2rem;
 	font-size: 1.2rem;
 	font-weight: bolder;
 }
 
-.workspaces a{
-	background-color: transparent; 
+.workspaces a {
+	background-color: transparent;
 	text-decoration: none;
 }
 
-.workspaces p{
+.workspaces p {
 	font-size: 1.2rem;
 	color: #fff;
 	padding-bottom: 0;
 }
 
-.download-slack{
-	color: #29339B;
+.download-slack {
+	color: #29339b;
 	background-color: #fff;
 	font-weight: bolder;
 	font-size: 1.3rem;
-	padding: 1rem 1rem;
+	padding: 1rem;
 	display: flex;
 	justify-content: center;
 }
 
-.download-slack img{
+.download-slack img {
 	margin-right: 1.5rem;
 }
 
-.fix-to-end{
+.fix-to-end {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
 
-@keyframes slide-in{
+@keyframes slide-in {
 	from {
 		transform: translate3d(100%, 0, 0);
 	}
@@ -150,7 +150,7 @@ body h1{
 	}
 }
 
-.nav-animate-in{
+.nav-animate-in {
 	animation-name: slide-in;
 	animation-delay: 0s;
 	animation-duration: 1s;
@@ -158,26 +158,26 @@ body h1{
 	display: block;
 }
 
-.hide{
+.hide {
 	display: none;
 }
 
-.show{
+.show {
 	display: block !important;
 }
 
-@keyframes slide-out{
-	from{
+@keyframes slide-out {
+	from {
 		transform: translate3d(0, 0, 0);
 	}
 
-	to{
+	to {
 		visibility: hidden;
 		transform: translate3d(100%, 0, 0);
 	}
 }
 
-.nav-animate-out{
+.nav-animate-out {
 	animation-name: slide-out;
 	animation-delay: 0s;
 	animation-duration: 2s;
@@ -186,12 +186,12 @@ body h1{
 
 
 /* section 1 */
-header{
-	padding: 2.5rem 1.9em 0rem 1.9rem;
+header {
+	padding: 2.5rem 1.9em 0 1.9rem;
 	max-width: 100%;
 }
 
-header h1{
+header h1 {
 	font-size: 2.6rem;
 	font-weight: bolder;
 	line-height: 1;
@@ -199,79 +199,85 @@ header h1{
 	text-align: left;
 }
 
-header h3, p {
+header h3,
+p {
 	padding-top: 1.3rem;
 	padding-bottom: 2rem;
 	line-height: 1.5;
-	color: #67777C;
+	color: #67777c;
 	font-size: 1.1rem;
 }
 
-#get-started{
+.get-slack {
+	max-width: 100%;
+}
+
+.get-started {
 	background-color: rgb(68, 86, 177);
 	border: none;
 	text-align: center;
 	color: #fff;
 	font-size: 85%;
 	padding: 1.2rem;
-	width: 100%;
 	border-radius: 5 px;
+	width: 100%;
 }
 
-#get-started:hover{
-	background-color: #29339B;
+.get-started:hover {
+	background-color: #29339b;
 }
 
-.get-slack p{
+.get-slack p {
 	display: none;
 }
 
-#home-image{
+#home-image {
 	padding-top: 2.5rem;
 	max-width: 100%;
 }
 
 
 /* section 2 */
-.section-1{
-	background-color: #f5f5f5; 
+.section-1 {
+	background-color: #f5f5f5;
 	text-align: center;
 	padding: 2.7rem 1.9em;
 }
 
-.section-1 h2{
+.section-1 h2 {
 	font-family: 'Goudy Bookletter 1911', serif;
 	font-size: 1.6rem;
 	font-weight: bolder;
 }
 
-.section-1 p{
-	padding: 0.9rem 0 1.5rem 0;
+.section-1 p {
+	padding: 0.9rem 0 1.5rem;
 	font-size: 1rem;
 }
 
-#discover-why{
+#discover-why {
 	width: 100%;
 	background-color: #fff;
-	color : #293EAF;
-	border: 0.5 px solid #293EAF;
+	color: #293eaf;
+	border: 0.5 px solid #293eaf;
 	font-size: 85%;
 	padding: 1.2rem;
 	border-radius: 5 px;
 }
 
-#discover-why:hover{
-	border: 1.5 px solid #293EAF;
+#discover-why:hover {
+	border: 1.5 px solid #293eaf;
 }
 
-.brand-logos{
+.brand-logos {
 	padding-top: 2rem;
 	max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.airbnb, .capital-one{
+.airbnb,
+.capital-one {
 	max-width: 50%;
 	height: auto;
 }
@@ -281,101 +287,97 @@ header h3, p {
 	height: auto;
 }
 
-.la-times{
+.la-times {
 	max-width: 85%;
 	height: auto;
 }
 
-.oracle{
+.oracle {
 	max-width: 60%;
 	height: auto;
 }
 
-.ticket-master{
+.ticket-master {
 	max-width: 60%;
 	height: auto;
 	border-bottom: none;
 }
 
-.brand{
+.brand {
 	padding: 2.3rem;
-	border-bottom: 0.5 px solid #DFDFDF;
+	border-bottom: 0.5 px solid #dfdfdf;
 }
 
-#ticket-master{
+#ticket-master {
 	border-bottom: none;
 }
 
 
 /* section 3 */
-.section-2{
+.section-2 {
 	display: flex;
-	padding: 3rem 1.9em;;
+	padding: 3rem 1.9em;
 	flex-wrap: wrap;
 	text-align: center;
 	max-width: 100%;
 	justify-content: center;
-	border-bottom: 1 px solid #DFDFDF;
+	border-bottom: 1 px solid #dfdfdf;
 }
 
-.text{
+.text {
 	width: 100%;
 }
 
-.text h3{
+.text h3 {
 	font-weight: bolder;
 	font-family: 'Goudy Bookletter 1911', serif;
 	font-size: 1.2rem;
 	line-height: 0.5;
 }
 
-.text p{
+.text p {
 	font-size: 1rem;
 	line-height: 0.5;
 }
 
-.the-button{
+.the-button {
 	text-align: right;
 	max-width: 100%;
 }
 
-.the-button #get-started{
-	width: 100%;
-}
-
 
 /* section 3 */
-.section-3{
+.section-3 {
 	display: flex;
 	padding: 0.5rem 1.9rem;
 	flex-wrap: wrap;
 }
 
-.logo-alone img{
+.logo-alone img {
 	width: 70%;
 	margin-left: -1.8rem;
 }
 
-.extra-info{
+.extra-info {
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
 }
 
-.extras{
+.extras {
 	width: 50%;
 	padding-bottom: 1.5rem;
 }
 
-.extras p{
-	padding: 0rem;
+.extras p {
+	padding: 0;
 	line-height: 2.5;
 	max-width: 100%;
 	font-size: 1rem;
 	color: #556266;
 }
 
-.extras h3{
+.extras h3 {
 	font-weight: bolder;
 	color: #556266;
 	line-height: 2.5;
@@ -383,26 +385,26 @@ header h3, p {
 
 
 /* footer */
-footer{
-	background-color: #f5f5f5; 
+footer {
+	background-color: #f5f5f5;
 	text-align: center;
 	padding: 2.2rem 1.7em 1rem 1.7rem;
 }
 
-.footer-menu{
+.footer-menu {
 	display: flex;
 	flex-wrap: wrap;
 	font-weight: bold;
 	justify-content: space-around;
 }
 
-.footer-menu p{
+.footer-menu p {
 	padding: 0;
 	font-size: 1rem;
 }
 
-.footer-menu p:hover{
-	color: #29339B;
+.footer-menu p:hover {
+	color: #29339b;
 }
 
 .fa {
@@ -413,24 +415,18 @@ footer{
 	max-width: 100%;
 }
 
-.fa:hover{
-	color: #29339B;
+.fa:hover {
+	color: #29339b;
 }
 
-.fa-facebook, .fa-twitter, .fa-youtube {
-	color: #707070;
-}
-
-.country{
-	padding: 1rem 0rem;
-}
-
-#country{
-	background-color: #f5f5f5;   
+.fa-facebook,
+.fa-twitter,
+.fa-youtube {
+	background-color: #f5f5f5;
 	border: none;
 }
 
-option{
+option {
 	border: none;
 }
 
@@ -438,57 +434,61 @@ option{
 /* Media queries */
 
 /* For Tablets */
-@media screen and (min-width:768 px) and (max-width:1279 px) {
-	.nav-bar{
-		padding: 0.5rem 2rem 0 2rem;
+@media screen and (min-width: 768 px) and (max-width: 1279 px) {
+	.nav-bar {
+		padding: 0.5rem 2rem 0;
 	}
-	
-	.logo{
+
+	.logo {
 		width: 50%;
 	}
-	
-	#slack-logo{
+
+	#slack-logo {
 		width: 35%;
 	}
-	
-	.menus{
+
+	.menus {
 		display: none;
 	}
-	
-	.close-icon{
+
+	.close-icon {
 		width: 65%;
 	}
-	
-	#icon{
+
+	#icon {
 		max-width: 60%;
 		float: right;
-		margin-top: 1rem; 
+		margin-top: 1rem;
 		background: none;
 		border: none;
 	}
 
-	#icon img{
+	#icon img {
 		width: 2rem;
 	}
 
 	/* header */
-	header h1{
+	header h1 {
 		font-size: 4.3rem;
 	}
 
-	header h3{
+	header h3 {
 		font-size: 1.3rem;
 	}
 
-	#get-started{
+	.get-slack {
 		width: 30%;
 	}
 
-	.get-slack p{
+	.get-started {
+		max-width: 30% !important;
+	}
+
+	.get-slack p {
 		display: none;
 	}
 
-	#home-image{
+	#home-image {
 		display: block;
 		margin: 0 auto;
 		padding-top: 2.5rem;
@@ -496,99 +496,106 @@ option{
 	}
 
 	/* section 2 */
-	.section-1 h2{
+	.section-1 h2 {
 		font-size: 2.2rem;
 	}
 
-	.section-1 p{
+	.section-1 p {
 		font-size: 1.1rem;
 	}
 
-	#discover-why{
+	#discover-why {
 		width: 30%;
 	}
 
-	.brand{
+	.brand {
 		width: 50%;
 	}
 
-	#oracle{
+	.brand-logos {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	#oracle {
 		border-bottom: none;
 	}
-	
-	#airbnb, #harvard, #oracle{
-		border-right: 0.5 px solid #DFDFDF;
+
+	#airbnb,
+	#harvard,
+	#oracle {
+		border-right: 0.5 px solid rgb(250, 86, 86);
 	}
 
 	/* section 3 */
-	.section-2{
+	.section-2 {
 		flex-wrap: nowrap;
 		padding-bottom: 1.2rem;
 	}
 
-	.text{
+	.text {
 		text-align: left;
 		width: 50%;
 	}
 
-	.text h3{
+	.text h3 {
 		font-size: 1.6rem;
 	}
-	
-	.the-button{
+
+	.the-button {
 		width: 50%;
 	}
-	
-	.the-button #get-started{
+
+	.the-button .get-started {
 		width: 65%;
 	}
 
 	/* section 3 */
-	.section-3{
+	.section-3 {
 		flex-wrap: nowrap;
 		padding: 1.7rem 1.7rem 1.7rem 0;
 	}
 
-	.logo-alone{
+	.logo-alone {
 		width: 20%;
 		margin-left: 3rem;
 	}
-	
-	.logo-alone img{
+
+	.logo-alone img {
 		padding-right: 1.4rem;
 	}
 
-	.extra-info{
+	.extra-info {
 		justify-content: space-between;
 		width: 80%;
 		padding: 0;
 	}
-	
-	.extras{
+
+	.extras {
 		width: 20%;
 	}
 
-	.extras p{
+	.extras p {
 		font-size: 0.9rem;
-		color: #C7CDCF;
+		color: #c7cdcf;
 	}
 
 
 	/* footer */
-	footer{
-		padding: 3rem 3rem;
+	footer {
+		padding: 3rem;
 	}
-	
-	.footer-menu{
+
+	.footer-menu {
 		justify-content: flex-start;
 		padding-bottom: 1rem;
 	}
-	
-	.footer-menu p{
+
+	.footer-menu p {
 		padding-left: 1rem;
 	}
-	
-	.country-sm{
+
+	.country-sm {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-end;
@@ -598,231 +605,231 @@ option{
 
 
 /* For Desktop */
-@media screen and (min-width: 1280 px){
-	.full-menu{
+@media screen and (min-width: 1280 px) {
+	.full-menu {
 		display: none !important;
 	}
 
-	.nav-bar{
-		padding: 0rem 2.2rem;
+	.nav-bar {
+		padding: 0 2.2rem;
 		max-width: 100%;
 		display: flex;
 		flex-wrap: wrap;
 	}
 
-	#slack-logo{
+	#slack-logo {
 		width: 35%;
 	}
 
-	.logo{
+	.logo {
 		width: 30%;
 	}
 
-	.menus{
+	.menus {
 		width: 70%;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-end;
 	}
 
-	.menu-item{
-		padding: 1.3rem 1rem 1.3rem 1rem;
+	.menu-item {
+		padding: 1.3rem 1rem;
 	}
 
-	.menu-item a{
+	.menu-item a {
 		font-size: 1.1rem;
 		padding-right: 1rem;
 		color: #556266;
 		text-decoration: none;
 	}
 
-	.menu-item a:hover{
-		color: #29339B;
+	.menu-item a:hover {
+		color: #29339b;
 	}
 
-	#workspace{
+	#workspace {
 		font-family: 'Lato', sans-serif;
 		background-color: #fff;
-		border: 1 px solid #AFAFAF;
+		border: 1 px solid #afafaf;
 		border-radius: 3 px;
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
 		padding-right: 0 !important;
 	}
 
-	#workspace:hover{
-		border: 1 px solid #29339B;
-		color: #29339B;
+	#workspace:hover {
+		border: 1 px solid #29339b;
+		color: #29339b;
 	}
 
-	#item-4{
-		padding: 0.7rem 1rem 0 0; 
+	#item-4 {
+		padding: 0.7rem 1rem 0 0;
 	}
 
-	.icon{
+	.icon {
 		display: none !important;
 	}
 
-	header{
+	header {
 		display: flex;
 		flex-direction: row-reverse;
 		padding: 6rem 3rem;
 	}
 
-	.header-text{
+	.header-text {
 		width: 50%;
 	}
 
-	.header-image{
+	.header-image {
 		width: 50%;
 	}
-	 
-	header h1{
+
+	header h1 {
 		font-size: 5.5rem;
 	}
 
-	header h3{
+	header h3 {
 		font-size: 1.5rem;
 		padding-bottom: 2rem;
 	}
 
-	.get-slack{
-		max-width: 100%;
-	}
-
-	#get-started{
+	.get-started {
 		width: 35%;
 		text-align: none;
 		font-weight: bold;
 	}
 
-	.get-slack p{
+	.get-slack p {
 		display: block;
-	}        
+	}
 
-	#home-image{
+	#home-image {
 		width: 80%;
-		padding-top: 0; 
+		padding-top: 0;
 	}
 
 	/* section 2 */
-	.section-1{
-		padding: 2.7rem 3rem 3rem 3rem;
+	.section-1 {
+		padding: 2.7rem 3rem 3rem;
 	}
 
-	.section-1 h2{
+	.section-1 h2 {
 		font-size: 2.7rem;
 	}
 
-	.section-1 p{
+	.section-1 p {
 		font-size: 1.2rem;
 		padding-bottom: 2rem;
 	}
 
-	#discover-why{
+	#discover-why {
 		width: 15%;
 		font-size: 1rem;
 		font-weight: bold;
 	}
 
-	.brand{
+	.brand {
 		width: 33.3%;
 	}
 
-	#ticket-master, #la-times, #oracle{
+	#ticket-master,
+	#la-times,
+	#oracle {
 		border-bottom: none;
 	}
 
-	#capital-one, #oracle{
-		border-right: 0.5 px solid #DFDFDF;
-		border-left: 0.5 px solid #DFDFDF;
+	#capital-one,
+	#oracle {
+		border-right: 0.5 px solid #dfdfdf;
+		border-left: 0.5 px solid #dfdfdf;
 	}
 
 	/* section 2 */
-	.section-2{
-		padding: 3rem 3rem;
+	.section-2 {
+		padding: 3rem;
 	}
 
-	.text{
+	.text {
 		text-align: left;
 		width: 70%;
 	}
 
-	.text h3{
+	.text h3 {
 		font-size: 2rem;
 	}
 
-	.text p{
+	.text p {
 		font-size: 1.3rem;
 		padding-bottom: 0;
 	}
 
-	.the-button{
+	.the-button {
 		text-align: right;
 		width: 30%;
 	}
 
-	.the-button #get-started{
+	.the-button .get-started {
 		width: 65%;
 		padding: 1.5rem 2.2rem;
 	}
 
 
-	/* section 3*/
-	.section-3{
+	/* section 3 */
+	.section-3 {
 		flex-wrap: nowrap;
-		padding: 3rem 3rem;
+		padding: 3rem;
 	}
 
-	.logo-alone{
+	.logo-alone {
 		width: 30%;
 		margin-top: -1.5rem;
 	}
 
-	.logo-alone img{
+	.logo-alone img {
 		padding-right: 2.5rem;
 		width: 40%;
 	}
 
-	.extra-info{
+	.extra-info {
 		justify-content: space-between 3rem;
 		width: 70%;
 		padding-right: 2.5rem;
 	}
 
-	.extras{
+	.extras {
 		width: 25%;
 	}
 
-	.extras p{
+	.extras p {
 		font-size: 1rem;
 	}
 
 
 	/* footer */
-	.footer-menu{
+	.footer-menu {
 		justify-content: center;
 	}
 
-	.footer-menu p{
+	.footer-menu p {
 		padding-left: 1rem;
 	}
 
-	footer{
+	footer {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
 		padding-bottom: 1rem;
 	}
 
-	.country-sm{
+	.country-sm {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-end;
 		font-size: 1.5rem;
 	}
 
-	.fa, .country{
+	.fa,
+	.country {
 		padding-top: 0;
 	}
 }

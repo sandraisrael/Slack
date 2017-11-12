@@ -15,5 +15,6 @@
         "ignore": ["after-comment"]
       } ],
       "unit-whitelist": ["em", "rem", "%", "s"]
-    }
-  }
+      },
+        "extends": "stylelint-config-standard"
+      }
