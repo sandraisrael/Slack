@@ -371,10 +371,12 @@ p {
 	max-width: 100%;
 	font-size: 1rem;
 	color: #637277;
+	font-weight: 300;
 }
 
 .extras h3 {
-	font-weight: bolder;
+	font-size: 0.8rem;
+	font-weight: bold;
 	color: #637277;
 	line-height: 2.7;
 }
@@ -395,8 +397,9 @@ footer {
 }
 
 .footer-menu p {
-	padding: 0;
+	padding: 0.5rem;
 	font-size: 1rem;
+	font-weight: bold;
 }
 
 .footer-menu p:hover {
@@ -805,14 +808,15 @@ option {
 	}
 
 	.footer-menu p {
-		padding-left: 1rem;
+		padding: 0 1rem;
+		font-size: 0.8rem;
 	}
 
 	footer {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		padding-bottom: 1rem;
+		padding: 2rem 6rem;
 	}
 
 	.country-sm {
