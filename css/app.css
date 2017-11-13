@@ -202,6 +202,7 @@ p {
 	line-height: 1.5;
 	color: #67777c;
 	font-size: 1.1rem;
+	font-weight: 300;
 }
 
 .get-slack {
@@ -249,6 +250,7 @@ p {
 .section-1 p {
 	padding: 0.9rem 0 1.5rem;
 	font-size: 1rem;
+	font-weight: 300;
 }
 
 #discover-why {
@@ -367,7 +369,7 @@ p {
 
 .extras p {
 	padding: 0;
-	line-height: 2.7;
+	line-height: 3;
 	max-width: 100%;
 	font-size: 1rem;
 	color: #637277;
@@ -375,7 +377,7 @@ p {
 }
 
 .extras h3 {
-	font-size: 0.8rem;
+	font-size: 1rem;
 	font-weight: bold;
 	color: #637277;
 	line-height: 2.7;
@@ -386,7 +388,7 @@ p {
 footer {
 	background-color: #f5f5f5;
 	text-align: center;
-	padding: 2.2rem 1.7em 1rem 1.7rem;
+	padding: 0.8rem 1.7rem;
 }
 
 .footer-menu {
@@ -408,7 +410,6 @@ footer {
 
 .fa {
 	padding: 1rem;
-	font-size: 20rem;
 	text-align: center;
 	text-decoration: none;
 	max-width: 100%;
@@ -606,7 +607,7 @@ option {
 		display: flex;
 		flex-wrap: wrap;
 		font-size: 1.5rem;
-		right: 0;
+		margin-left: auto;
 	}
 }
 
