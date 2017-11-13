@@ -496,13 +496,14 @@ option {
 		max-width: 50%;
 	}
 
-	/* section 2 */
+	/* section 1 */
 	.section-1 h2 {
-		font-size: 2.2rem;
+		font-size: 2.1rem;
 	}
 
 	.section-1 p {
 		font-size: 1.1rem;
+		font-weight: 300;
 	}
 
 	#discover-why {
@@ -515,7 +516,7 @@ option {
 
 	.brand-logos {
 		display: flex;
-		flex-wrap: nowrap;
+		flex-wrap: wrap;
 	}
 
 	#oracle {
@@ -528,7 +529,7 @@ option {
 		border-right: 0.5px solid #dfdfdf;
 	}
 
-	/* section 3 */
+	/* section 2 */
 	.section-2 {
 		flex-wrap: nowrap;
 		padding-bottom: 1.2rem;
@@ -541,6 +542,10 @@ option {
 
 	.text h3 {
 		font-size: 1.6rem;
+	}
+
+	.text p {
+		font-weight: 300;
 	}
 
 	.the-button {
@@ -578,18 +583,19 @@ option {
 
 	.extras p {
 		font-size: 0.9rem;
-		color: #c7cdcf;
+		color: #aeb1b3;
 	}
 
 
 	/* footer */
 	footer {
-		padding: 3rem;
+		padding: 1rem 3rem;
+		display: flex;
+		flex-wrap: wrap;
 	}
 
-	.footer-menu {
-		justify-content: flex-start;
-		padding-bottom: 1rem;
+	.footer-menu p {
+		font-size: 0.8rem;
 	}
 
 	.footer-menu p {
@@ -599,8 +605,8 @@ option {
 	.country-sm {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: flex-end;
 		font-size: 1.5rem;
+		right: 0;
 	}
 }
 
@@ -615,6 +621,9 @@ option {
 		max-width: 100%;
 		display: flex;
 		flex-wrap: wrap;
+		position: sticky;
+		top: 0;
+		background-color: #fff;
 	}
 
 	.slack-logo {
