@@ -1,3 +1,8 @@
+@font-face {
+	font-family: slack-timepos;
+	src: url("../fonts/tiempos-headline-semibold.woff2");
+}
+
 html {
 	font-size: 16 px;
 }
@@ -7,7 +12,7 @@ body {
 }
 
 body h1 {
-	font-family: 'Goudy Bookletter 1911', serif;
+	font-family: slack-timepos, 'Goudy Bookletter 1911', serif;
 }
 
 
